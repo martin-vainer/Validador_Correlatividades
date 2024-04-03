@@ -24,7 +24,7 @@ public class InscripcionTest {
         Assert.assertTrue(inscripcionPueba1.aprobada());
 
     }
-
+    @Test
     public void inscripcionQueNoCumpleCorrelativas(){
 
         Materia analisisDeSistemas = new Materia("Análisis de Sistemas");
